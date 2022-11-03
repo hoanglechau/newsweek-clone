@@ -1,62 +1,15 @@
 /*-- Navbar --*/
-
-.topnav {
-    margin-bottom: 0;
-}
-
-.topnav .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.topnav .pull-left img {
-    height: 100px;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: white;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #9d9d9d;
-}
-
-.nav li a:not(#circular-image):not(.bullet-a) {
-    line-height: 70px; /*vertically center menu items*/
-    position: relative;
-    display: block;
-    text-align: center;
-}
-
-/* ----------------------- */
-
-/* Subscribe to Newsweek */
-
-.nav li #circular-image {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.banner-sign-in {
+    width: 100px;
 }
 
 .banner-subscribe-to {
     width: 175px;
 }
 
-.wrapper {
-    margin: 0 auto;
-}
-
 .banner-subscribe-to p {
     text-align: center;
     display: block;
-}
-
-.topnav .img-circle {
-    border-radius: 50%;
-    height: 65px;
-    width: 65px;
-    vertical-align: middle;
-    text-align: left;
-    float: left;
 }
 
 .banner-subscribe-to span {
@@ -71,28 +24,15 @@
     color: yellow;
 }
 
+.banner-width-set {
+    width: 100px;
+}
+
 .navbar .divider-vertical {
     height: 100px;
     border-right: 1px solid #ffffff;
     border-left: 1px solid #f2f2f2;
 }
-
-.navbar-inverse .divider-vertical {
-    border-right-color: #6f6f6f;
-    border-left-color: #111111;
-}
-
-.banner-width-set {
-    width: 100px;
-}
-
-/* Sign In */
-
-.banner-sign-in {
-    width: 100px;
-}
-
-/* small screen navbar*/
 
 .navbar-collapse.collapse {
     display: block !important;
@@ -101,6 +41,19 @@
 .navbar-collapse {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #6f6f6f;
+    border-left-color: #111111;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #9d9d9d;
 }
 
 .navbar-nav > li,
@@ -112,6 +65,44 @@
     float: right !important;
 }
 
+.nav li a:not(#circular-image):not(.bullet-a) {
+    line-height: 70px; /*vertically center menu items*/
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.nav li #circular-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.topnav {
+    margin-bottom: 0;
+}
+
+.topnav .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.topnav .img-circle {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    vertical-align: middle;
+    text-align: left;
+    float: left;
+}
+
+.topnav .pull-left img {
+    height: 100px;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
 @media (min-width: 768px) {
     .topnav .navbar-right {
         margin-right: 0;
@@ -119,11 +110,6 @@
 }
 
 @media (max-width: 767px) {
-    .topnav .container-fluid {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .navbar-nav > li > a {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -131,5 +117,10 @@
 
     .navbar-nav {
         margin: 0 0 0 15px;
+    }
+
+    .topnav .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
